@@ -1,10 +1,13 @@
-#Sistema de Procesamiento y Auditoría de Facturación
+**Sistema de Procesamiento y Auditoría de Facturación**
+
 Aplicación de escritorio desarrollada en C# con Windows Forms para una empresa regional de logística y entregas.
 
-#Objetivo
+**Objetivo**
+
 Procesar lotes de facturas de flete capturados como cadenas de texto, validar la información de los paquetes, calcular tarifas, impuestos y recargos, almacenar las transacciones y exportar la auditoría a CSV.
 
-Funcionalidades requeridas:
+**Funcionalidades requeridas**:
+
 -Lectura de tarifas desde appsettings.json.
 -Cambio dinámico de idioma entre español e inglés.
 -Captura de lotes mediante texto multilínea.
@@ -21,8 +24,8 @@ Funcionalidades requeridas:
 -Persistencia de transacciones en base de datos.
 -Manejo de errores y excepciones.
 
+**Reglas de negocio**
 
-#Reglas de negocio
 Zona A: recargo del 5 %.
 Zona B: recargo del 10 %.
 Zona C: recargo del 18 %.
